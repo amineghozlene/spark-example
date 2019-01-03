@@ -28,6 +28,4 @@ RUN mkdir /root/.ivy2/
 
 ENV myCustomEnvVar = "This is a sample."
 
-ENTRYPOINT ["/usr/bin/sbt"]
-CMD ["sbtVersion"]
-
+RUN ["sbt"]
